@@ -1,7 +1,6 @@
 function solution(str, ending) {
-	let l1 = str.length;
-	let l2 = ending.length;
-	let i = l1 - l2;
+	let i = str.length - ending.length;
+	console.log(i);
 
 	for (const char of ending) {
 		if (str[i] !== char) {
@@ -10,4 +9,4 @@ function solution(str, ending) {
 	}
 	return true;
 }
-console.log(solution("abcde", "e"));
+console.log(solution("sadik", "ik"));
