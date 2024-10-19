@@ -17,3 +17,9 @@ function toCamelCase(str) {
 }
 
 console.log(toCamelCase("the_titanic-was_the_Biggest-ship"));
+
+//****** alternative solution using regEx *******/
+
+// function toCamelCase(str) {
+// 	return str.replace(/[_-](.)/g, (_, c) => c.toUpperCase());
+// }
