@@ -13,8 +13,9 @@ function rgb(r, g, b) {
 		range(r).toString(16).padStart(2, "0") +
 		range(g).toString(16).padStart(2, "0") +
 		range(b).toString(16).padStart(2, "0");
-
+	
 	return hex.toUpperCase();
 }
 
 console.log(rgb(300, 255, 255));
+

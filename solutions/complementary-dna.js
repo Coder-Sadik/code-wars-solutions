@@ -4,3 +4,7 @@ function dnaStrand(dna) {
 	let reverseDna = dna.replace(/[ATGC]/g, (char) => map[char]);
 	return reverseDna;
 }
+
+
+
+
