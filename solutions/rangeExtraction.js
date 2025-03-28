@@ -3,8 +3,6 @@ const array = [
 	19, 20,
 ];
 
-console.log("start");
-
 const rangeExtraction = (array) => {
 	let start = array[0],
 		end = array[0],
